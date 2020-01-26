@@ -56,7 +56,7 @@ class Deck:
             return 'Ход Компьютера'
         else:
             print('Компьютер берет.')
-            self._computer_hand.append(self.player_move_cards)
+            self._computer_hand.append(self.player_card)
             return 'Ход Игрока'
 
 if __name__ == '__main__':
@@ -68,4 +68,5 @@ if __name__ == '__main__':
     deck_test.computer_answer()
     print(deck_test.player_card)
     print(deck_test.answer_cards)
+#    print(deck_test.computer_move)
 
